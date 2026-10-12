@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>From one promise — The ChongLuaDao story</title>
+<meta name="description" content="A 3½-minute brand film for Chống Lừa Đảo, an anti-scam non-profit. English, captioned, 1080p 60 fps.">
+<meta property="og:title" content="From one promise — The ChongLuaDao story">
+<meta property="og:description" content="A 3½-minute brand film for Chống Lừa Đảo, an anti-scam non-profit. English, captioned, 1080p 60 fps.">
+<meta property="og:image" content="https://tadyuh76.github.io/premium-film-demo/poster.jpg">
+<meta property="og:type" content="video.other">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg: #04090b; --fg: #e8f1ef; --soft: #8fa3a0; --accent: #62e0ad; --line: rgba(232, 241, 239, 0.1); }
+  * { box-sizing: border-box; margin: 0; }
+  html { background: var(--bg); color: var(--fg); }
+  body {
+    min-height: 100vh; display: flex; flex-direction: column; align-items: center;
+    font: 400 16px/1.6 "Be Vietnam Pro", system-ui, sans-serif;
+    background: radial-gradient(70% 50% at 50% 0%, rgba(98, 224, 173, 0.08), transparent 70%), var(--bg);
+    padding: clamp(24px, 5vw, 64px) 16px;
+  }
+  main { width: 100%; max-width: 1280px; }
+  header { margin-bottom: clamp(20px, 3vw, 32px); }
+  h1 { font-weight: 600; font-size: clamp(28px, 4.4vw, 52px); line-height: 1.1; letter-spacing: -0.02em; }
+  h1 span { color: var(--accent); }
+  .meta { margin-top: 10px; color: var(--soft); font-size: clamp(14px, 1.6vw, 17px); }
+  .frame {
+    position: relative; border-radius: 14px; overflow: hidden; background: #000;
+    box-shadow: 0 0 0 1px var(--line), 0 30px 80px -20px rgba(0, 0, 0, 0.8), 0 0 120px -40px rgba(98, 224, 173, 0.25);
+  }
+  video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+  footer { margin-top: clamp(20px, 3vw, 32px); color: var(--soft); font-size: 14px; display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: space-between; }
+  footer strong { color: var(--fg); font-weight: 500; }
+  footer a { color: inherit; text-decoration-color: var(--accent); text-underline-offset: 3px; }
+  footer a:hover strong { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>From one <span>promise</span></h1>
+    <p class="meta">The ChongLuaDao story · A brand film for Chống Lừa Đảo, an anti-scam non-profit · English, captioned · 3:38 · 1080p 60 fps</p>
+  </header>
+  <div class="frame">
+    <video controls playsinline preload="metadata" poster="poster.jpg">
+      <source src="film.mp4" type="video/mp4">
+      Your browser can't play this video. <a href="film.mp4">Open the video file</a>.
+    </video>
+  </div>
+  <footer>
+    <p>Made with <a href="https://github.com/tadyuh76/premium-film-skill"><strong>Premium Film</strong></a>, a Claude Code skill for premium, fact-checked videos that follow your brand guidelines.</p>
+    <p>© Chống Lừa Đảo</p>
+  </footer>
+</main>
+</body>
+</html>
